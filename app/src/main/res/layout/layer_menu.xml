@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_menu_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/LHelp"
+        style="@style/MenuEntry">
+
+        <ImageView
+            style="@style/MenuEntryIcon"
+            android:background="@drawable/icon_question_circle" />
+
+        <TextView
+            style="@style/MenuEntryText"
+            android:text="@string/menu_help" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LAbout"
+        style="@style/MenuEntry">
+
+        <ImageView
+            style="@style/MenuEntryIcon"
+            android:background="@drawable/icon_info_circle" />
+
+        <TextView
+            style="@style/MenuEntryText"
+            android:text="@string/menu_about" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LClose"
+        style="@style/MenuEntry">
+
+        <ImageView
+            style="@style/MenuEntryIcon"
+            android:background="@drawable/icon_times" />
+
+        <TextView
+            style="@style/MenuEntryText"
+            android:text="@string/menu_close" />
+    </LinearLayout>
+
+</LinearLayout>
